@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Materlize</title>
+
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+   
+        <nav>
+                <div class="nav-wrapper">
+                  <a href="#!" class="brand-logo">Logo</a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                  <ul class="right hide-on-med-and-down">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#main">Main</a></li>
+                    <li><a href="#contact">Content</a></li>
+                  </ul>
+                 
+                </div>
+              </nav>
+            
+              <ul class="sidenav" id="mobile-demo">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#main">Main</a></li>
+                <li><a href="#contact">Content</a></li>
+              </ul>
+         
+              
+           
+    <!--scrollspy content start-->
+   <div class="container">
+        <div class="row">
+                <div class="col s12 m9 l10">
+
+                <div id="home" class="section scrollspy" class="home-sect">
+                  <h1 class="center-align">Home Section</h1>
+                  <h5 class="center-align">Just trying Materialize out.</h5>
+
+                <a class="waves-effect waves-light btn-large center-align" href="https://materializecss.com/">MaterializeCSS.</a>
+                    
+
+
+                  <div class="row">
+                        <div class="col s12 m6">
+                          <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                              <span class="card-title">Connie Lai</span>
+                              <p>I am learning front-end development at Geekwise. I use HTML 5, CSS 3, ES6, Angular 6 to make websites and apps.
+                              I live in Fresno, California.</p>
+                            </div>
+                            <div class="card-action">
+                              <a href="github.com/connielion">Github</a>
+                              <a href="connielion.com">My portfolio</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div id="main" class="section scrollspy" class="main-sect">
+                  <h1 class="center-align">About</h1>
+                  <h5 class="center-align">Just another day of learning how to code...</h5>
+
+                  <div class="divider"></div>
+
+                  <h2 class="center-align">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab obcaecati asperiores fuga ut porro dignissimos, exercitationem incidunt quos cum culpa delectus vero? Necessitatibus quibusdam quasi culpa et asperiores, cum beatae!</h2>
+                </div>
+
+                <div class="divider"></div>
+
+                <div id="contact" class="section scrollspy" class="contact-sect">
+                  <h1 class="txt-center">Contact Form</h1>
+                  
+                  <div class="row">
+                        <form class="col s12">
+                          <div class="row">
+
+                            <div class="input-field col s6">
+                              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                              <label for="first_name">First Name</label>
+                            </div>
+
+                            <div class="input-field col s6">
+                              <input id="last_name" type="text" class="validate">
+                              <label for="last_name">Last Name</label>
+                            </div>
+                          </div>
+                       
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <input id="password" type="password" class="validate">
+                              <label for="password">Password</label>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <input id="email" type="email" class="validate">
+                              <label for="email">Email</label>
+                            </div>
+                          </div>
+                          <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                                <i class="material-icons right">send</i>
+                              </button>
+                                    
+                        </form>
+                      </div>
+
+                </div>
+              </div>
+      </div>
+
+<!--fixed action button-->
+<div class="fixed-action-btn">
+        <a class="btn-floating btn-large red pulse">
+          <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+          <li><a class="btn-floating red" href="#home"><i class="material-icons">home</i></a></li>
+          <li><a class="btn-floating yellow darken-1" href="#main"><i class="material-icons">build</i></a></li>
+          <li><a class="btn-floating green" href="#contact"><i class="material-icons">local_phone</i></a></li>
+          <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+      </div>
+           
+   </div>   
+<!--footer-->
+   <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Footer Content</h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2018 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    
+    <script>
+
+  // init with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.scrollspy').scrollSpy();
+    $('.fixed-action-btn').floatingActionButton();
+    $('input.autocomplete').autocomplete({
+      data: {
+        "Apple": null,
+        "Microsoft": null,
+        "Google": 'https://placehold.it/250x250'
+      },
+    });
+  });
+       </script>
+
+   
+
+</body>
+</html>
